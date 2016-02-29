@@ -26,4 +26,3 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/xiaomi/armani/armani-vendor-blobs.mk)
-$(call inherit-product, vendor/xiaomi/qcom/qcom-vendor-blobs.mk)
