@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/libra/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/libra/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/xiaomi/libra/proprietary/bin/garden_app:system/bin/garden_app \
+    vendor/xiaomi/libra/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/xiaomi/libra/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/xiaomi/libra/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/libra/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -27,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/bin/iop:system/bin/iop \
     vendor/xiaomi/libra/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/xiaomi/libra/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/libra/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/xiaomi/libra/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/libra/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/xiaomi/libra/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
@@ -63,12 +64,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/xiaomi/libra/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/libra/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/xiaomi/libra/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
+    vendor/xiaomi/libra/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/xiaomi/libra/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/libra/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/libra/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/libra/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/xiaomi/libra/proprietary/etc/qcril.db:system/etc/qcril.db \
     vendor/xiaomi/libra/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/xiaomi/libra/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
+    vendor/xiaomi/libra/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/xiaomi/libra/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/xiaomi/libra/proprietary/lib64/hw/consumerir.msm8992.so:system/lib64/hw/consumerir.msm8992.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/fingerprint.libra.so:system/lib64/hw/fingerprint.libra.so \
     vendor/xiaomi/libra/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
@@ -103,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
     vendor/xiaomi/libra/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/libra/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
+    vendor/xiaomi/libra/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/xiaomi/libra/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/xiaomi/libra/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/libra/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
@@ -142,6 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
@@ -149,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/xiaomi/libra/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -283,6 +292,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
@@ -413,6 +423,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/libra/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot_street.so:system/vendor/lib/libchromatix_s5k3m2xm_snapshot_street.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/xiaomi/libra/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/xiaomi/libra/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
