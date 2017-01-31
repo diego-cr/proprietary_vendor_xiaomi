@@ -272,8 +272,6 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .xml
 include $(BUILD_PREBUILT)
 
-
-<<<<<<< HEAD
 ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
 
 RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
@@ -282,7 +280,4 @@ $(foreach f, $(notdir $(RADIO_FILES)), \
 $(call add-radio-file,../../../device/xiaomi/gemini/radio/filesmap)
 
 endif
-
-=======
->>>>>>> 54a28ad... gemini: Update to MIUI 7.1.19 global dev blobs
 endif
