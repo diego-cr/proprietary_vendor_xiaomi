@@ -90,8 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/ferrari/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/ferrari/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
-    vendor/xiaomi/ferrari/proprietary/vendor/etc/firmware/a420_pfp.fw:system/vendor/etc/firmware/a420_pfp.fw
-    vendor/xiaomi/ferrari/proprietary/vendor/etc/firmware/a420_pm4.fw:system/vendor/etc/firmware/a420_pm4.fw
+    vendor/xiaomi/ferrari/proprietary/vendor/etc/firmware/a420_pfp.fw:system/vendor/etc/firmware/a420_pfp.fw \
+    vendor/xiaomi/ferrari/proprietary/vendor/etc/firmware/a420_pm4.fw:system/vendor/etc/firmware/a420_pm4.fw \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
