@@ -46,16 +46,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ViaBrowser
-LOCAL_SRC_FILES := proprietary/app/ViaBrowser/ViaBrowser.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_OVERRIDES_PACKAGES := Browser
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libqminvapi
 LOCAL_SRC_FILES := proprietary/lib/libqminvapi.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
