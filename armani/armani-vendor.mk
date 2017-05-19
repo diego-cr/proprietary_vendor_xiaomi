@@ -18,8 +18,7 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     com.qualcomm.services.location \
-    TimeService \
-    ViaBrowser
+    TimeService
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
