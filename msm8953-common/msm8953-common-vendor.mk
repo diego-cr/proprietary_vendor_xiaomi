@@ -516,4 +516,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
     qcrilmsgtunnel \
-    TimeService
+    TimeService \
+    chargeonlymode
