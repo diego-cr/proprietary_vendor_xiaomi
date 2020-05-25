@@ -132,14 +132,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881c_HD720p_video_Ebbg.xml \
     vendor/xiaomi/santoni/proprietary/vendor/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881c_HD720p_video_EbbgDJN.xml \
     vendor/xiaomi/santoni/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/hw/hwcomposer.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.msm8937.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8937.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom_fingerprints_service.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmutils.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmcore.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/hwcomposer.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.msm8937.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/hw/gxfingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gxfingerprint.default.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom_fingerprints_service.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libfp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_client.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
+    vendor/xiaomi/santoni/proprietary/vendor/lib64/libsdmutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmutils.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libfpservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfpservice.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/santoni/proprietary/vendor/lib64/libmorpho_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_panorama.so \
