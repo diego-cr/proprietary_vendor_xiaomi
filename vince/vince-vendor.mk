@@ -1160,7 +1160,6 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    libbtconfigstore \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
