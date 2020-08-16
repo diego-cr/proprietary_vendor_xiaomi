@@ -20,9 +20,33 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
     vendor/xiaomi/raphael/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/xiaomi/raphael/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
-    vendor/xiaomi/raphael/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
-    vendor/xiaomi/raphael/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ATT/ATT_profile4.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ATT/ATT_profile5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ATT/ATT_profile5.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ATT/ATT_profile6.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ATT/ATT_profile6.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile15.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile15.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile16.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile16.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile17.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile17.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile18.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile18.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile19.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile19.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile20.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile20.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile21.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile21.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile32.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile32.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile4.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile6.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile6.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/ROW/ROW_profile7.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/ROW/ROW_profile7.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/VZW/VZW_profile1.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/VZW/VZW_profile2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/VZW/VZW_profile3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/VZW/VZW_profile4.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/xiaomi/raphael/proprietary/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/excluded-input-devices.xml \
     vendor/xiaomi/raphael/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/xiaomi/raphael/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
